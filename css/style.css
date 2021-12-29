@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: midnightblue;
+  text-align: center;
+  font-size: 30px;
+}
+h3 {
+  color: whitesmoke;
+  background-color: midnightblue;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 30px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/imagenes/fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a:hover {
+  color: #065dff;
+  justify-content: space-between;
+  border: 2px solid mintcream;
+  background-color: rgb(241, 243, 245);
+}
+a {
+  color: #fafafa;
+  margin: 40px;
+}
+/* convertidor  */
+.div_1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 143, 192);
+  padding: 30px;
+  border: 2px solid mintcream;
+  margin: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.div_1 button {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf9f9;
+  font-size: 15px;
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #0d6efd;
+  background-color: #fafafa;
+}
+.div_1 button:hover {
+  background-color: #0d6efd;
+  color: #fdf9f9;
+}
+.div_1 input {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf9f9;
+  font-size: x-large;
+}
+footer {
+  display: flex;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border-radius: 20px;
+  margin-left: 150px;
+}
+.precio {
+  color: rgb(253, 251, 251);
+
+  background-color: rgb(37, 143, 192);
+  border: 2px solid mintcream;
+  justify-content: center;
+  text-align: center;
+  width: 214px;
+  min-width: 100px;
+}
+
+.card {
+  border-radius: 20px;
+  margin-right: 100px;
+  align-items: center;
+  color: black;
+  background-color: #fdf9f9;
+  right: -4%;
+}
+.card p {
+  color: blue;
+}
+#contenedor {
+  display: flex;
+  border: 2px solid mintcream;
+  min-width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  padding: 35px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.div_1 {
+  border-radius: 20px;
+  background-color: #dcdaff;
+  font-size: 30px;
+}
+.div_1:hover {
+  color: #065dff;
+}
+.conversion1 {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf9f9;
+  font-size: x-large;
+}
+
+/* tarjetas de Compras */
+.btnInt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.btn_card {
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #00a2ff;
+  text-align: center;
+  width: 200px;
+}
+.btn_card:hover {
+  background-color: #fdf9f9;
+  color: #00a2ff;
+}
+
+/* prediccion del tiempo */
+#contendor2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#caja1,
+#caja2,
+#caja3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10%;
+  width: 250px;
+  height: 300px;
+}
+#caja1 {
+  background-color: rgba(0, 0, 0, 0.767);
+  color: azure;
+}
+#caja2 {
+  background-color: darkblue;
+  color: azure;
+}
+#caja3 {
+  background-color: #2ab2ea;
+  color: azure;
+}
