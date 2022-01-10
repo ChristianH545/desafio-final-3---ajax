@@ -1,4 +1,4 @@
-
+//consumiendo api para actulizar valor de monedas
 let currencyUrl = "https://freecurrencyapi.net/api/v2/latest?apikey=";
 
 let apiKey = "54a8c8f0-6819-11ec-9f60-579fdf7bfe03";
