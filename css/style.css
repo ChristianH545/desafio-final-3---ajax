@@ -35,13 +35,13 @@ body {
   background-attachment: fixed;
 }
 
-a:hover {
+a.navegacion:hover {
   color: #065dff;
   justify-content: space-between;
   border: 2px solid mintcream;
   background-color: rgba(241, 243, 245, 0.781);
 }
-a {
+a.navegacion {
   text-align: center;
   color: #050505d7;
   margin: 40px;
