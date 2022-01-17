@@ -1,13 +1,18 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  
 }
 
-h1 {
-  color: midnightblue;
+h1.logo{
+  color: rgb(29, 29, 148);
   text-align: center;
-  font-size: 30px;
+  font-size: 3rem;
+  font-family: "Berkshire Swash", cursive;
+  text-shadow: 5px 1px 0 rgb(78, 248, 78);
+   
+               
+
 }
 h3 {
   color: whitesmoke;
@@ -18,6 +23,7 @@ h3 {
   border-radius: 30px;
 }
 body {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +39,14 @@ a:hover {
   color: #065dff;
   justify-content: space-between;
   border: 2px solid mintcream;
-  background-color: rgb(241, 243, 245);
+  background-color: rgba(241, 243, 245, 0.781);
 }
 a {
-  color: #fafafa;
+  text-align: center;
+  color: #050505d7;
   margin: 40px;
+  font-size: 40px;
+  text-shadow: 3px 2px 0 rgb(245, 246, 245);
 }
 /* convertidor  */
 .div_1 {
@@ -154,7 +163,8 @@ div.precio {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 30px;
+  
 }
 
 #caja1,
@@ -169,7 +179,7 @@ div.precio {
   font-display: center;
 }
 #caja1 {
-  background-color: rgba(247, 22, 236, 0.767);
+  background-color: rgba(2, 2, 2, 0.767);
   color: azure;
 }
 #caja2 {
